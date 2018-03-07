@@ -1,0 +1,14 @@
+server:
+  port: 8062
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8061/eureka/
+spring:
+  application:
+    name: provider-demo
+  data:
+    mongodb:
+      host: 127.0.0.1
+      database: 1708blog
+      port: 27017
